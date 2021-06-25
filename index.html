@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>XAra</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    </head>
+    <body class="Backround">
+        <div id="container">
+            <!-- Navbar container -->
+            <div id="navbar">
+                <div id="logo">
+                    <model-viewer src="images/lieutenantHead.gltf" alt="3D head" auto-rotate camera-controls ar ios-src="images/lieutenantHead.gltf">
+                    </model-viewer>
+                </div>
+                <ul>
+                    <li class="active">
+                        <a href="#">Download</a>
+                    </li>
+                    <li><a href="#">Tech</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <!-- An aside -->
+            <!-- This is for holding the 3D object -->
+            <div id="aSide">
+                <model-viewer src="images/lieutenantHead.gltf" alt="3D head" auto-rotate camera-controls ar ios-src="images/lieutenantHead.gltf">
+                </model-viewer>
+            </div>
+        
+            <!-- Content container -->
+            <!-- This is for holding some brief description about the 3D object -->
+            <div id="content">
+                <h2>XAra Visions.</h2>
+                <p>The modern Hikers App!</p>
+                <button>Learn More</button>
+            </div>
+        
+            <!-- <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600"> -->
+
+            <!-- Social media icons -->
+            <!-- This is for holding some company's social media icons and related links -->
+            <div id="icons">
+                <div id="iconsLogo">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <footer style="background-color: #df9220;">
+            <img  src="images/qrcode.jpeg" alt="Qr code" height= "60px"
+                width= "60px"
+                position= "absolute"
+                left= "3%"
+                top= "-5px">
+            <div>
+                <img  src="images/newqrcode.png" alt="Qr code" height= "60px"
+                width= "60px"
+                position= "absolute"
+                left= "3%"
+                top= "-5px">
+            </div>       
+        </footer>
+        <script src="" async defer></script>
+    </body>
+</html>
